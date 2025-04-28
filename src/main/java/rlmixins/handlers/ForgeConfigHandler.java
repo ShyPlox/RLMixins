@@ -248,7 +248,7 @@ public class ForgeConfigHandler {
 		@Config.Comment("Tags mobs without a Spawner Tile as summoned, allowing for Trinkets and Baubles to cancel their xp/item drops")
 		@Config.Name("Destroyed Spawner Summon Tag (MobSpawnerControl/TrinketsAndBaubles)")
 		@Config.RequiresMcRestart
-		public boolean destroyedSpawnerSummonTags = false;
+		public boolean destroyedSpawnerSummonTags = true;
 
 		@Config.Comment("Increases the time that Jailer Champions apply the Jailed effect for, since the original mixes up seconds and ticks")
 		@Config.Name("Jailer Champion Time (Champions)")
